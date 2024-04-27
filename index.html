@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de Matemáticas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://scontent.fpaz1-1.fna.fbcdn.net/v/t39.30808-6/292196819_403851848427732_5919942214011400726_n.png?stp=dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rKXSFAhLqEcAb5AkhjJ&_nc_ht=scontent.fpaz1-1.fna&oh=00_AfAXtyAl71gaeTat2EcYiK7J4sbHzWjw2CC5SKmoM2aTzA&oe=6632931D" alt="Logo" class="mr-2">
+                Cursos de Matemáticas
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cursos">Cursos Ofrecidos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recursos">Recursos Gratuitos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4 display-md-3 display-lg-2">¡Aprende Matemáticas!</h1>
+            <p class="lead">Desarrolla tu habilidad con nuestros cursos especializados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="sobre-mi" class="section">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia risus. Nullam porttitor felis eget enim laoreet, vel volutpat quam tristique.</p>
+        </div>
+    </div>
+
+    <div id="cursos" class="section">
+        <div class="container">
+            <h2>Cursos Ofrecidos</h2>
+            <div class="accordion" id="accordionCursos">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Matemáticas Básicas
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse collapse-content" aria-labelledby="headingOne" data-parent="#accordionCursos">
+                        <div class="card-body">
+                            Este curso cubre los fundamentos básicos de las matemáticas.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Álgebra Lineal
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse collapse-content" aria-labelledby="headingTwo" data-parent="#accordionCursos">
+                        <div class="card-body">
+                            Aprende los conceptos básicos y avanzados del álgebra lineal.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Cálculo Diferencial
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse collapse-content" aria-labelledby="headingThree" data-parent="#accordionCursos">
+                        <div class="card-body">
+                            Sumérgete en el mundo del cálculo diferencial y sus aplicaciones.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Estadística Avanzada
+                            </button>
+                          
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse collapse-content" aria-labelledby="headingFour" data-parent="#accordionCursos">
+                        <div class="card-body">
+                            Aprende a analizar datos de manera avanzada utilizando herramientas estadísticas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="recursos" class="section">
+        <div class="container">
+            <h2>Recursos Gratuitos</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia risus. Nullam porttitor felis eget enim laoreet, vel volutpat quam tristique.</p>
+        </div>
+    </div>
+
+    <div id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia risus. Nullam porttitor felis eget enim laoreet, vel volutpat quam tristique.</p>
+        </div>
+    </div>
+
+    <div id="ubicacion" class="section">
+        <div class="container">
+            <h2>Ubicación</h2>
+            <div class="map-container">
+                <!-- Aquí puedes agregar un mapa interactivo de Google Maps u otra plataforma -->
+                <!-- Ejemplo: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.289739560005!2d-122.40843848427216!3d37.777758279759484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858086dce1a3c1%3A0x8f87bb174f47e4b4!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1596729709199!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cursos de Matemáticas - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

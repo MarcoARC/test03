@@ -1,0 +1,141 @@
+
+        /* Estilos personalizados */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00416A; /* Cambio de color de fondo a azul oscuro */
+            color: #fff;
+        }
+        .navbar {
+            background-color: #1B262C; /* Barra de navegación más oscura */
+        }
+        .navbar-brand {
+            color: #F4D35E; /* Color de la marca */
+            font-size: 1.1rem; /* Tamaño de la marca aumentado */
+            font-weight: bold;
+            text-transform: uppercase; /* Marca en mayúsculas */
+        }
+        .navbar-brand img {
+            height: 40px; /* Altura de la imagen */
+            margin-right: 10px; /* Espaciado entre la imagen y el texto */
+        }
+        .navbar-brand:hover {
+            color: #FF9F1C; /* Color al pasar el cursor sobre la marca */
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 1.2rem;
+            margin-right: 15px;
+            transition: color 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #FF9F1C; /* Color al pasar el cursor sobre los enlaces */
+        }
+        .jumbotron {
+            background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9b5');
+            background-size: cover;
+            color: #fff;
+            padding: 150px 25px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .jumbotron h1 {
+            font-size: 4.5rem; /* Tamaño del título aumentado */
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #F4D35E;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .jumbotron p {
+            font-size: 1.8rem; /* Tamaño del texto aumentado */
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .social-icons a {
+            color: #F4D35E;
+            font-size: 32px; /* Tamaño de los iconos aumentado */
+            margin: 0 15px; /* Espaciado entre los iconos aumentado */
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #FF9F1C;
+        }
+        .section {
+            padding: 100px 0;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 3.5rem; /* Tamaño del título de la sección aumentado */
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #FF9F1C;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .section p {
+            font-size: 1.8rem; /* Tamaño del texto de la sección aumentado */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .map-container {
+            height: 400px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            margin-top: 50px;
+        }
+        .footer {
+            background-color: #1B262C;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .footer p {
+            margin-bottom: 0;
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media (max-width: 768px) {
+            .navbar-collapse {
+                background-color: #1B262C;
+            }
+            .navbar-nav .nav-link {
+                padding: 10px 0;
+                border-bottom: 1px solid #37474F;
+            }
+            .navbar-toggler {
+                border-color: #FF9F1C;
+            }
+            .jumbotron h1 {
+                font-size: 3.5rem;
+            }
+            .jumbotron p {
+                font-size: 1.5rem;
+            }
+            .section h2 {
+                font-size: 3rem;
+            }
+            .section p {
+                font-size: 1.5rem;
+            }
+            .map-container {
+                height: 300px;
+            }
+        }
+
+        /* Estilos para el Collapse */
+        .card-header {
+            background-color: #1B262C;
+        }
+        .card-header h5 {
+            color: #fff;
+        }
+        .card-body {
+            background-color: #2C3E50;
+            color: #fff;
+        }
+        .collapse-content {
+            border: none;
+        }
+        .collapse-content .card {
+            border: 1px solid #FF9F1C;
+            margin-bottom: 10px;
+        }
+  
